@@ -1,3 +1,3 @@
-FROM alpine:3.7
+FROM alpine:3
 RUN apk add --no-cache curl bash bc
 ENTRYPOINT ["bash", "/server.sh"]
